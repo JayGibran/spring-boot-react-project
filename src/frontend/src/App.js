@@ -10,7 +10,8 @@ import {
     Badge,
     Tag,
     Radio,
-    Popconfirm} from 'antd';
+    Popconfirm,
+    Image} from 'antd';
 import { Empty } from 'antd';
 
 import {
@@ -185,7 +186,11 @@ function App() {
                   }
                 </div>
               </Content>
-              <Footer style={{ textAlign: 'center' }}>By AmigosCode</Footer>
+              <Footer style={{ textAlign: 'center' }}>
+                <Image
+                    width={75}
+                    src="https://user-images.githubusercontent.com/4052589/117552882-fe437d80-b045-11eb-95e5-2b55c8efa153.png" />
+              </Footer>
             </Layout>
           </Layout>
           </>);
