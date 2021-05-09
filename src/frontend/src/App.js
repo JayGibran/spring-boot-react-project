@@ -11,7 +11,8 @@ import {
     Tag,
     Radio,
     Popconfirm,
-    Image} from 'antd';
+    Image,
+    Divider} from 'antd';
 import { Empty } from 'antd';
 
 import {
@@ -190,6 +191,10 @@ function App() {
                 <Image
                     width={75}
                     src="https://user-images.githubusercontent.com/4052589/117552882-fe437d80-b045-11eb-95e5-2b55c8efa153.png" />
+                <Divider>
+                    <a rel="noreferrer" target="_blank" href="https://amigoscode.com/p/full-stack-spring-boot-react" >
+                    Click here to access Fullstack Spring Boot & React for professionals</a>
+                </Divider>
               </Footer>
             </Layout>
           </Layout>
